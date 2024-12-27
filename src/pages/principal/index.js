@@ -15,8 +15,17 @@ function Principal(){
                 	  
                 
                 <ul className="list-group mt-2 ms-3 me-2">
-                    <a href="_blank" className="list-group-item list-group-item-action list-group-item-success mb-2" data-bs-toggle="collapse" data-bs-target="#versao75" aria-expanded="true" aria-controls="versao75">Versão 7.5</a>
-                        <div className="show" id="versao75">
+                    <a href="_blank" className="list-group-item list-group-item-action list-group-item-success mb-2" data-bs-toggle="collapse" data-bs-target="#versao80" aria-expanded="false" aria-controls="versao80">Versão 8.0</a>
+                        <div className="show" id="versao80">
+                            <div className="card card-body">
+                                <ul className="list-sub-group">
+                                    <li className="list-group-item list-group-item-action">Versão 8.0</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    <a href="_blank" className="list-group-item list-group-item-action list-group-item-success mb-2" data-bs-toggle="collapse" data-bs-target="#versao75" aria-expanded="false" aria-controls="versao75">Versão 7.5</a>
+                        <div className="collapse" id="versao75">
                             <div className="card card-body">
                                 <ul className="list-sub-group">
                                     <li className="list-group-item list-group-item-action">Emissão de Fatura de locação. Gerando boleto.</li>
