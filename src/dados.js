@@ -1,4 +1,17 @@
 const versoes = {
+    'versao83': {
+      versao: '8.3',
+      atualizacoes: [
+          'Includa Reforma Tributária para empresas débito e crédito',
+          'Correção de bugs e melhorias.'
+        ]
+    },
+    'versao82': {
+      versao: '8.2',
+      atualizacoes: [
+          'Correção de bugs e melhorias.'
+        ]
+    },
     'versao81': {
       versao: '8.1',
       atualizacoes: [
@@ -17,7 +30,7 @@ const versoes = {
     'versao80': {
       versao: '8.0',
       atualizacoes: [
-          'Nova versão 8.0'
+          'Correção de bugs e melhorias.'
         ]
     },
     'versao75': {
@@ -32,7 +45,9 @@ const versoes = {
     },
     'versao74': {
       versao: '7.4',
-      atualizacoes: ['versão 7.4']
+      atualizacoes: [
+        'Correção de bugs e melhorias.'
+      ]
     }
   };
 

@@ -22,7 +22,7 @@ import LogoAdmin from '../../assets/logo.png';
 import { versoes } from "./../../dados.js";
 
 const Principal = () => {
-  const [versaoAtiva, setVersaoAtiva] = useState('versao81');
+  const [versaoAtiva, setVersaoAtiva] = useState('versao83');
 
   // const versoes = {
   //   'versao81': {
